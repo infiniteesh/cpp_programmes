@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    cout<<"enter an year"<<endl;
+    int year;
+    cin>>year;
+    if(year%400==0 && year%100!=0 || year%4==0)
+    {
+        cout<<"leap year\n";
+        
+    }
+    else{
+        cout<<"not leap year";
+    }
+    return 0;
+}
